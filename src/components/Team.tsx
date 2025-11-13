@@ -6,7 +6,7 @@ const team = [
   {
     name: "Gros Béatrice ",
     role: "Responsable Pédagogique",
-    image: "/asset/beatrice.png",
+    image: "/asset/Beatrice.png",
   },
   {
     name: "Mercier William",
