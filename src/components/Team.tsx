@@ -3,19 +3,19 @@ import { motion } from "motion/react";
 
 const team = [
   {
-    name: "Sophie Martin",
+    name: "Gros Béatrice ",
     role: "Responsable Pédagogique",
-    image: "/asset/avatar.svg",
+    image: "/asset/beatrice.png",
   },
   {
     name: "Mercier William",
     role: "Lead Developer",
-    image: "/asset/avatar.svg",
+    image: "/asset/willy.png",
   },
   {
     name: "Oudelet Kevin",
     role: "Machine Learning Specialist",
-    image: "/asset/avatar.svg",
+    image: "/asset/kevin.png",
   },
   {
     name: "Militello Giuseppe",
