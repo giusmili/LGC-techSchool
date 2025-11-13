@@ -22,6 +22,11 @@ const team = [
     role: "Développement & Com",
     image: "/asset/gius.png"
   },
+   {
+    name: "Diae BOOTIA EL OUMAMI",
+    role: "Juriste & Direction",
+    image: "/asset/diae.png"
+  },
 ];
 
 export function Team() {
