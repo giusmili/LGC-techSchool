@@ -19,6 +19,18 @@
 - `npm start` - démarre le serveur Next en production.
 - `npx tsc --noEmit` - vérification TypeScript.
 
+## Déploiement (basePath sous-sous-dossier)
+
+- Le site peut être servi sous un sous-chemin (ex. GitHub Pages: `/LGC-techSchool`).
+- Configuration via variables d’environnement au build:
+  - `GITHUB_PAGES=true` en production: active automatiquement `/LGC-techSchool`.
+  - ou `NEXT_PUBLIC_BASE_PATH=/chemin` (ou `BASE_PATH=/chemin`) pour définir un sous-chemin explicite.
+- Quand un `basePath` est défini, les images Next sont servies en mode `unoptimized` (compatibles hébergement statique).
+
+Exemples:
+- PowerShell (Windows): `$env:GITHUB_PAGES = "true"; npm run build`
+- Bash: `GITHUB_PAGES=true npm run build`
+
 ## Structure (extrait)
 
 - `app/layout.tsx` - layout HTML racine et import global CSS.
@@ -32,4 +44,3 @@
 - L’ancienne configuration Vite a été retirée. Les scripts utilisent désormais Next.
 - Les composants qui emploient `window`/`document` restent côté client via `app/page.tsx`.
 - Vous pouvez ultérieurement migrer progressivement vers des Server Components si besoin.
-

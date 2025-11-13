@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
-// ImageWithFallback removed; using standard <img>
+import Image from "next/image";
+// ImageWithFallback removed; switched to next/image
 
 const team = [
   {
@@ -75,11 +76,13 @@ export function Team() {
                   {/* Avatar with glow effect */}
                   <div className="relative aspect-square overflow-hidden rounded-full border border-gray-800">
                     <div className="absolute inset-0 bg-gradient-to-br from-[#5C6FFF]/30 to-[#AD6BFF]/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full" />
-                    <img
+                    <Image
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 rounded-full"
-                      loading="lazy"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300 rounded-full"
+                      priority={false}
                     />
                     {/* Glow overlay */}
                     <div className="absolute inset-0 rounded-full shadow-[inset_0_0_60px_rgba(92,111,255,0.3)] group-hover:shadow-[inset_0_0_80px_rgba(173,107,255,0.4)] transition-shadow duration-300" />
@@ -99,5 +102,4 @@ export function Team() {
     </section>
   );
 }
-
 
