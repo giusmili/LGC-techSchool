@@ -27,6 +27,23 @@ const team = [
     role: "Juriste & Direction",
     image: "/asset/diae.png"
   },
+    {
+    name: "Sophie LEROY",
+    role: "Reponsable Marketing",
+    image: "/asset/avatar.svg"
+  },
+     {
+    name: "Jean DURAND",
+    role: "Reponsable formation",
+    image: "/asset/avatar.svg"
+  },
+     {
+    name: "Sophie DUPONT",
+    role: "Reponsable RH",
+    image: "/asset/avatar.svg"
+  },
+
+
 ];
 
 export function Team() {
