@@ -34,7 +34,7 @@ const team = [
     image: "/asset/anna.png"
   },
      {
-    name: "Jawad Mrah",
+    name: "Jawad M",
     role: "Relation entreprise",
     image: "/asset/avatar.svg"
   },
