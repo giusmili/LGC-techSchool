@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const team = [
   {
-    name: "Hélène-Béatrice Gros",
-    role: "Responsable Pédagogique",
-    image: "/asset/Beatrice.png",
+    name: "Ismaël Niang",
+    role: "Directeur de La grande classe",
+    image: "/asset/avatar.svg",
   },
   {
     name: "William Mercier",
