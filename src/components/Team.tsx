@@ -29,19 +29,19 @@ const team = [
     image: "/asset/diae.png"
   },
     {
-    name: "Sophie LEROY",
-    role: "Reponsable Marketing",
+    name: "Anna Feugueur",
+    role: "Reponsable Formation",
+    image: "/asset/anna.png"
+  },
+     {
+    name: "Marah Jawad",
+    role: "Rélation entreprise",
     image: "/asset/avatar.svg"
   },
      {
-    name: "Jean DURAND",
-    role: "Reponsable formation",
-    image: "/asset/avatar.svg"
-  },
-     {
-    name: "Sophie DUPONT",
-    role: "Reponsable RH",
-    image: "/asset/avatar.svg"
+    name: "Amel Benhamdi",
+    role: "Reponsable petite enfance",
+    image: "/asset/amel.png"
   },
 
 
