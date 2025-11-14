@@ -58,7 +58,10 @@ export function Team() {
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-5xl text-center mb-16"
         >
-          La Team TechSchool
+          La Team La grande classe &amp; 
+              <span className="bg-gradient-to-r from-[#5C6FFF] to-[#AD6BFF] bg-clip-text text-transparent">
+                &nbsp;TechSchool
+            </span>
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
