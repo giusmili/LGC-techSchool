@@ -30,7 +30,7 @@ const team = [
   },
     {
     name: "Anna Feugueur",
-    role: "Reponsable Formation",
+    role: "Reponsable de formation",
     image: "/asset/anna.png"
   },
      {
