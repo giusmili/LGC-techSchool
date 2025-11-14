@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const team = [
   {
-    name: "Gros Béatrice ",
+    name: "Gros Hélène-Béatrice",
     role: "Responsable Pédagogique",
     image: "/asset/Beatrice.png",
   },
