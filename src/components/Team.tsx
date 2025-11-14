@@ -30,7 +30,7 @@ const team = [
   },
     {
     name: "Anna Feugueur",
-    role: "Reponsable de formation",
+    role: "Responsable de formation",
     image: "/asset/anna.png"
   },
      {
@@ -40,7 +40,7 @@ const team = [
   },
      {
     name: "Amel Benhamdi",
-    role: "Reponsable petite enfance",
+    role: "Responsable petite enfance",
     image: "/asset/amel.png"
   },
 
