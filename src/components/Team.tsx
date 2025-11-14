@@ -24,7 +24,7 @@ const team = [
     image: "/asset/gius.png"
   },
    {
-    name: "Diae BOOTIA EL OUMAMI",
+    name: "Diae Bootia El Oumani",
     role: "Juriste & Direction",
     image: "/asset/diae.png"
   },
@@ -34,7 +34,7 @@ const team = [
     image: "/asset/anna.png"
   },
      {
-    name: "Jawad Marah",
+    name: "Jawad Mrah",
     role: "Relation entreprise",
     image: "/asset/avatar.svg"
   },
