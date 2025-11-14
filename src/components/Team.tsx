@@ -4,22 +4,22 @@ import Image from "next/image";
 
 const team = [
   {
-    name: "Gros Hélène-Béatrice",
+    name: "Hélène-Béatrice Gros",
     role: "Responsable Pédagogique",
     image: "/asset/Beatrice.png",
   },
   {
-    name: "Mercier William",
+    name: "William Mercier",
     role: "Lead Developer",
     image: "/asset/willy.png",
   },
   {
-    name: "Oudelet Kevin",
+    name: " Kevin Oudelet",
     role: "Machine Learning Specialist",
     image: "/asset/kevin.png",
   },
   {
-    name: "Militello Giuseppe",
+    name: "Giuseppe Militello",
     role: "Développement & Com",
     image: "/asset/gius.png"
   },
@@ -34,8 +34,8 @@ const team = [
     image: "/asset/anna.png"
   },
      {
-    name: "Marah Jawad",
-    role: "Rélation entreprise",
+    name: "Jawad Marah",
+    role: "Relation entreprise",
     image: "/asset/avatar.svg"
   },
      {
