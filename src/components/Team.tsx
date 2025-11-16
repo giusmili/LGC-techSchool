@@ -53,10 +53,12 @@ const team = [
     role: "Pôle financier",
     image: "/asset/avatar.svg"
   },
+      {
+    name: "Hélène-Béatrice Gros",
+    role: "Responsable pédagogique",
+    image: "/asset/avatar.svg"
+  },
   
-  
-  
-
 
 ];
 
