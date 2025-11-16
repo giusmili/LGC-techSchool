@@ -10,17 +10,17 @@ const team = [
   },
   {
     name: "William Mercier",
-    role: "Devops",
+    role: "Devops R&D",
     image: "/asset/willy.png",
   },
   {
     name: "Kevin Oudelet",
-    role: "Machine Learning Engineer",
+    role: "Machine Learning Engineer R&D",
     image: "/asset/kevin.png",
   },
   {
     name: "Giuseppe Militello",
-    role: "DCO",
+    role: "DCO R&D",
     image: "/asset/gius.png"
   },
    {
