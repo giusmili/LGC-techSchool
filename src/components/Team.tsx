@@ -43,6 +43,19 @@ const team = [
     role: "Pôle petite enfance",
     image: "/asset/amel.png"
   },
+      {
+    name: "Selma Daramus",
+    role: "Enseignante d'anglais",
+    image: "/asset/avatar.svg"
+  },
+      {
+    name: "Martin Merrouni",
+    role: "Pôle financier",
+    image: "/asset/avatar.svg"
+  },
+  
+  
+  
 
 
 ];
