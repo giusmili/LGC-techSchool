@@ -5,22 +5,22 @@ import Image from "next/image";
 const team = [
   {
     name: "Ismaël Niang",
-    role: "Directeur de La grande classe",
+    role: "CEO La grande classe & R&D",
     image: "/asset/avatar.svg",
   },
   {
     name: "William Mercier",
-    role: "Lead Developer",
+    role: "Devops",
     image: "/asset/willy.png",
   },
   {
     name: "Kevin Oudelet",
-    role: "Machine Learning Specialist",
+    role: "Machine Learning Engineer",
     image: "/asset/kevin.png",
   },
   {
     name: "Giuseppe Militello",
-    role: "Développement & Com",
+    role: "DCO",
     image: "/asset/gius.png"
   },
    {
@@ -30,7 +30,7 @@ const team = [
   },
     {
     name: "Anna Feugueur",
-    role: "Responsable de formation",
+    role: "Responsable formation",
     image: "/asset/anna.png"
   },
      {
@@ -40,7 +40,7 @@ const team = [
   },
      {
     name: "Amel Benhamdi",
-    role: "Responsable petite enfance",
+    role: "Pôle petite enfance",
     image: "/asset/amel.png"
   },
 
