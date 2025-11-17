@@ -45,13 +45,18 @@ const team = [
   },
       {
     name: "Selma Daramus",
-    role: "Enseignante d'anglais",
+    role: "Formatrice de français",
     image: "/asset/avatar.svg"
   },
       {
     name: "Martin Merrouni",
-    role: "Pôle financier",
-    image: "/asset/avatar.svg"
+    role: "Responsable restauration",
+    image: "/asset/martin.png"
+  },
+       {
+    name: "Sophie Armand",
+    role: "Formatrice petite enfance",
+    image: "/asset/sophie.png"
   },
       {
     name: "Hélène-Béatrice Gros",
