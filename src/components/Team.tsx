@@ -15,7 +15,7 @@ const team = [
   },
   {
     name: "Kevin Oudelet",
-    role: "LLM Engineer R&D",
+    role: "Ingénieur IA R&D",
     image: "/asset/kevin.png",
   },
   {
