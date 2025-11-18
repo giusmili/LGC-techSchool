@@ -50,7 +50,7 @@ const team = [
   },
       {
     name: "Martin Merrouni",
-    role: "Responsable restauration",
+    role: "Responsable HCR",
     image: "/asset/martin.png"
   },
        {
